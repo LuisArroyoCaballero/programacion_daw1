@@ -6,6 +6,11 @@ import java.util.Scanner;
 
 public class Ejercicio3_2 {
     public static void main(String arg[]) {
-        
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Introduzca su año de nacimiento: ");
+        short nacimiento = teclado.nextShort();
+        System.out.println("Introduzca el año actual: ");
+        short actual = teclado.nextShort();
+        System.out.println("Su edad es o "+(actual-nacimiento-1)+" o "+(actual-nacimiento)+" años.");
     }
 }
