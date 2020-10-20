@@ -10,8 +10,25 @@ public class Ejercicio6_4 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduzca un primer número.");
         byte num_1 = teclado.nextByte();
-        System.out.println("Introduzca un primer número.");
+        System.out.println("Introduzca un segundo número.");
         byte num_2 = teclado.nextByte();
+        int menor_if = 0;
+        int menor_condicional;
+
+        if (num_1 == num_2) {
+            System.out.println("Los dos números son iguales.");
+        }
+        else if (num_1 < num_2) {
+            menor_if = num_1;
+            System.out.println(menor_if);
+        }
+        else {
+            menor_if = num_2;
+            System.out.println(menor_if);
+        }
+
+        menor_condicional = num_1 < num_2 ? num_1 : num_2;
+        System.out.println(menor_condicional);
 
 
     }
