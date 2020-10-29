@@ -22,6 +22,5 @@ public class Ejercicio6_3 {
 
         System.out.println(par_ternario);
         System.out.println(par_if);
-
     }
 }
