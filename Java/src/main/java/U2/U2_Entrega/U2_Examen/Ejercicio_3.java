@@ -48,7 +48,7 @@ public class Ejercicio_3 {
         int escritura_impares = 0;
         double almacen_pares = 0;
         double almacen_impares = 0;
-
+        int i;
 
         while (num_longitud != 0) {
             num_longitud= num_longitud/10;
@@ -69,26 +69,41 @@ public class Ejercicio_3 {
             num=num/10;
             cont++;
         }
-        //System.out.println(pares);
-        //System.out.println(impares);
+        System.out.println(pares);
+        System.out.println(impares);
         int impares_1 = (int) impares;
         int pares_1 = (int) pares;
+        cont_impares--;
+        cont_pares--;
 
         while (pares_1!=0) {
             almacen_pares = (almacen_pares)+((pares_1%10)*(Math.pow(10,cont_pares)));
-            System.out.println(almacen_pares);
             pares_1 = pares_1/10;
             cont_pares--;
-            almacen_pares=almacen_pares*10;
+
         }
         while (impares_1!=0) {
             almacen_impares = (almacen_impares)+((impares_1%10)*(Math.pow(10,cont_impares)));
-            System.out.println(almacen_impares);
             impares_1 = impares_1/10;
             cont_impares--;
+
+        }
+        escritura_pares = (int) almacen_pares;
+        escritura_impares = (int) almacen_impares;
+
+        System.out.print("Digitos pares: ");
+
+        while (escritura_pares!=0){
+            System.out.print((escritura_pares%10)+" ");
+            escritura_pares = escritura_pares/10;
         }
 
+        System.out.print("Digitos impares: ");
 
+        while (escritura_impares!=0){
+            System.out.print((escritura_impares%10)+" ");
+            escritura_impares = escritura_impares/10;
+        }
 
 
     }

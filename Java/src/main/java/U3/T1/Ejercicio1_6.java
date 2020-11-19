@@ -1,6 +1,6 @@
 package U3.T1;
-//Actividad 1.6: Crear una funciÃ³n que, mediante un booleano, indique si el carÃ¡cter que se pasa como
-//parÃ¡metro de entrada corresponde con una vocal.
+//Actividad 1.6: Crear una función que, mediante un booleano, indique si el carácter que se pasa como
+//parámetro de entrada corresponde con una vocal.
 
 import java.util.Scanner;
 
@@ -18,7 +18,8 @@ public class Ejercicio1_6 {
         }
     }
     public static boolean vocal(String c){
-        String lista = "aeiouAEIOUÃ¡Ã©Ã­Ã³ÃºÃÃ‰ÃÃ“Ãš";
+        //String lista = "aeiouAEIOUáéíóúÁÉÍÓÚ";
+        String lista = "aeiouAEIOU";
         if (lista.indexOf(c) >= 0) {
             return true;
         }
