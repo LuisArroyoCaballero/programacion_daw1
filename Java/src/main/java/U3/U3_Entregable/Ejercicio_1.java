@@ -1,4 +1,4 @@
-package U3.Entregable;
+package U3.U3_Entregable;
 //Ejercicio 1
 //
 //Crea la función filtraPrimos que:

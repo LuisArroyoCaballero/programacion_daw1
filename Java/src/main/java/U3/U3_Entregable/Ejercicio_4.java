@@ -1,4 +1,4 @@
-package U3.Entregable;
+package U3.U3_Entregable;
 //Juego del buscaminas
 //
 //Solicitando al usuario una dimensión N crear una vector bidimensional que tenga N filas y N columnas.

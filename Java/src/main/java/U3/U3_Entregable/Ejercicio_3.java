@@ -1,4 +1,4 @@
-package U3.Entregable;
+package U3.U3_Entregable;
 //Ejercicio 3
 //
 //Hacer una algoritmo que solicite al usuario una cifra N y rellene un array bidimensional de N filas y N columnas con número aleatorios entre 100 y 200.
