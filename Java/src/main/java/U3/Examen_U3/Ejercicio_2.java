@@ -29,7 +29,7 @@ public class Ejercicio_2 {
 
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 9; j++) {
-                if (x-cn[i][j]){
+                if (x==n[i][j]){
 
                     return false;
                 }
