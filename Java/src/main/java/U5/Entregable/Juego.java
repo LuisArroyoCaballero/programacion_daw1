@@ -122,13 +122,12 @@ public class Juego {
 
     /*MOSTRAR PAISES*/
 
-    public class comparaPaises_participantes implements Comparator {
+    public static class comparaPaises_participantes implements Comparator {
         public int compare(Object p1, Object p2){
             Pais pais1 = (Pais) p1;
             Pais pais2 = (Pais) p2;
 
             return pais2.getNum_participantes() - pais1.getNum_participantes();
-
         }
     }
 
