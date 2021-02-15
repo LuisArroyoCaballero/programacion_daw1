@@ -99,7 +99,7 @@ public class Empleado {
                 "nombre_apellidos='" + nombre_apellidos + '\'' +
                 ", numero_SS=" + numero_SS +
                 ", telefono=" + telefono +
-                //", fecha_entrada=" + fecha_entrada +
+                ", fecha_entrada=" + fecha_entrada +
                 ", tipo=" + tipo +
                 '}';
     }
