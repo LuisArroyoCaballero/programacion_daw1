@@ -8,12 +8,14 @@ public class Prenda implements Devolver,Doblar {
     private int cod_barras;
     private double peso;
 
-    public Prenda(double precio, String nombre, int cod_barras, double peso){
+   public Prenda(double precio, String nombre, int cod_barras, double peso){
         setPrecio(precio);
         setNombre(nombre);
         setCod_barras(cod_barras);
         setPeso(peso);
-    }
+   }
+
+
 
     /*PRECIO*/
 
