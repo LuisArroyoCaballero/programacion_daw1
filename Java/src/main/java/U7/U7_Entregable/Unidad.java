@@ -1,9 +1,8 @@
-package U7.Entregable;
+package U7.U7_Entregable;
 
 import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
-import java.util.Set;
 
 public class Unidad implements Serializable {
     private String curso;

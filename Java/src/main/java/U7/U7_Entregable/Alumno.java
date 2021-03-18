@@ -1,4 +1,4 @@
-package U7.Entregable;
+package U7.U7_Entregable;
 
 import java.io.Serializable;
 import java.util.Objects;

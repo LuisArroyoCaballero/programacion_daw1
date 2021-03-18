@@ -1,7 +1,4 @@
-package U7.Entregable;
-
-import U7.ExamenIntento_1920.Cepa;
-import U7.ExamenIntento_1920.Paciente;
+package U7.U7_Entregable;
 
 import java.io.*;
 import java.util.*;
